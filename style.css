@@ -1,0 +1,60 @@
+body,p{
+    background: #ecf3f3;
+	font-size: 18px;
+
+}
+h1{
+	font-family: 'Open Sans',Arial,sans-serif;
+	box-sizing: border-box;
+}
+
+h2,h3,h4,h5,h6{
+	font-family: 'Open Sans',Arial,sans-serif;
+	box-sizing: border-box;
+}
+.About_Me {
+	width: 149px; /* I took the width from your post and placed it in css */
+	height: 200px;
+ }
+.About_Me img {
+	height: 100%;
+	width: 100%;
+ }
+
+h5{
+	font-family: 'Open sans', sans-serif;
+}
+
+p{
+	font-family: 'Open sans', sans-serif;
+	font-size: 18;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
